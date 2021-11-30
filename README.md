@@ -8,7 +8,7 @@ This is the codebase for NYU multicore final project.
 
 Predicting the performance of parallel applications has served different objectives, including capacity planning, elastic scaling,  improve  utilization  of  system  resource  and  detecting system  bottlenecks.   We  in  this  paper  proposed  Amdahl’s Plus Formula in order to better fit the performance of the program by concerning the overhead of multi-threading and synchronization.  Results show that our method is effective in finding out the optimized thread number, which is a guidance for developers in improving the performance of parallel system.
 
-![pipeline](figures\pipeline.png)
+![pipeline](figures/pipeline.png)
 
 ### Overview
 
