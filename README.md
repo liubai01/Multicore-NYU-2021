@@ -1,4 +1,4 @@
-## NYU-Multicore-Project
+# Amdahl’s Net: Optimal Performance Prediction WithFirst-Order Linear Overhead Assumption
 
 **Author:** `Yintao, Xu(yintao.xu@nyu.edu)`, `Zibo, Wang(zw2574@nyu.edu)`
 
@@ -10,7 +10,7 @@ Predicting the performance of parallel applications has served different objecti
 
 ![pipeline](figures/pipeline.png)
 
-### Overview
+## Overview
 
 The project mainly bases on python3. 
 
@@ -18,14 +18,14 @@ The project mainly bases on python3.
 - The prediction statistically learning models are implemented in Jupyter notebooks. 
 - Anaconda3 is recommended as integrated python distribution version.
 
-### Notebooks
+## Notebooks
 
 1. [Data Preprocess.ipynb](https://github.com/liubai01/Multicore-NYU-2021/blob/master/Data%20Preprocess.ipynb): Include description how we construct the dataset.
 2. [Amdahl's law.ipynb](https://github.com/liubai01/Multicore-NYU-2021/blob/master/Amdahl's%20law.ipynb): Visualize Amdahl's law and propose Amdahl's plus law.
 3. [Amdahls' Net.ipynb](https://github.com/liubai01/Multicore-NYU-2021/blob/master/Amdahl's%20Net.ipynb): Train the Amdahl's law to predict optimal thread numbers.
 3.  [Baselines.ipynb](https://github.com/liubai01/Multicore-NYU-2021/blob/master/Baselines.ipynb): Provide baseline methods for comparison.
 
-### Experiment Result
+## Experiment Result
 
 The prediction of optimal thread and speedup.
 
@@ -42,6 +42,6 @@ The prediction of optimal thread and speedup.
 
 **Conclusion**: Amdahl's Net is good at predicting optimal thread but bad at predicting actual speed-up.
 
-### Acknowledgement
+## Acknowledgement
 
 This data preprocessing section is inspired from Aman's [previous project](https://github.com/Aman-Chopra/Performance-Prediction-Multithreaded-Applications).
